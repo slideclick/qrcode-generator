@@ -7,6 +7,7 @@ qrcode-generator
 5.java -cp ".;qrcode-1.0.jar" com.github.qrcode.QrcodeGenerator
 if Linux:  /java$ java -cp ".:qrcode-1.0.jar" com.github.qrcode.QrcodeGenerator
 
+你如果加压那个jar文件，你到它的com的父目录里面去运行，不需要写-cp因为自带了org和google的库
 
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.javadev/qrcode-generator.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.github.javadev%22%20AND%20a%3A%22qrcode-generator%22)
